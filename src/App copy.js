@@ -11,6 +11,8 @@ function App() {
   return (
     <div className="App">
       <div className='container'>
+        <div className="box-button"><FormButton text="Cadastro Cliente" target="cliente"></FormButton></div>
+        <div className="box-button"><FormButton text="Cadastro Usuário" target="usuario"></FormButton></div>
         <div className="control-form">
             <div id="boxCliente" className="box-container">
               <h2>Cadastro de Cliente</h2>
